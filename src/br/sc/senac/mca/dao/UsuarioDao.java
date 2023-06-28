@@ -6,4 +6,6 @@ public interface UsuarioDao {
     public Usuario acharPorLoginESenha(String login, String senha);
 
     public Integer insercao(Usuario usuario);
+
+    public void exclusao(Usuario usuario);
 }

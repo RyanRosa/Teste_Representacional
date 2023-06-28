@@ -23,16 +23,6 @@ public class ConnectionFactory {
         }
         return conexao;
     }
-    public static void closeConnection(){
-        if(conexao != null){
-            try{
-                conexao.close();
-                System.out.println("Fechado");
-            }catch (SQLException e){
-                System.out.println(e.getMessage());
-            }
-        }
-    }
 
     public static void CloseResultSet(ResultSet resultSet){
         if(resultSet != null){

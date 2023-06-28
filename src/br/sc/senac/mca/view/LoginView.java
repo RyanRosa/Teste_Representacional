@@ -41,7 +41,6 @@ public class LoginView extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
-                ConnectionFactory.closeConnection();
             }
         });
         btnRegistrar.addActionListener(new ActionListener() {

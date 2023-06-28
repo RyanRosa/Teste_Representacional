@@ -35,7 +35,6 @@ public class UsuarioDaoJDBC implements UsuarioDao {
             System.out.println(e.getMessage());
         } finally {
             ConnectionFactory.CloseResultSet(rs);
-            ConnectionFactory.CloseStatement(st);
         }
         return null;
     }
@@ -67,9 +66,20 @@ public class UsuarioDaoJDBC implements UsuarioDao {
             System.out.println(e.getMessage());
         } finally {
             ConnectionFactory.CloseResultSet(rs);
-            ConnectionFactory.CloseStatement(st);
         }
         return null;
+    }
+
+    @Override
+    public void exclusao(Usuario usuario) {
+        PreparedStatement st = null;
+        try {
+            st = conexao.prepareStatement("delete usuario from usuario where id = ?");
+            st.setInt(1, usuario.getId());
+            st.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     private Usuario criarUsuario(ResultSet rs) throws SQLException {

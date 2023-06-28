@@ -6,16 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="77ca5ed4-9e69-422c-91f2-15bd9d326a0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/TesteDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/TesteDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/UsuarioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/UsuarioDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/UsuarioDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/dao/impl/UsuarioDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/util/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/util/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/CadastroView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/FormularioView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/sc/senac/mca/view/ResultadoView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

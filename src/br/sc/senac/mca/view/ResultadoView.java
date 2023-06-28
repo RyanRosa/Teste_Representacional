@@ -1,5 +1,7 @@
 package br.sc.senac.mca.view;
 
+import br.sc.senac.mca.dao.DaoFactory;
+import br.sc.senac.mca.dao.UsuarioDao;
 import br.sc.senac.mca.model.Usuario;
 
 import javax.swing.*;
@@ -25,10 +27,14 @@ public class ResultadoView extends JFrame {
     private JLabel lblFaseFix;
     private JLabel lblDataNascimento;
     private JLabel lblFase;
+    private JButton btnExcluir;
     private Usuario usuario;
+
+    private UsuarioDao usuarioDao;
 
     public ResultadoView(Usuario usuario) {
         this.usuario = usuario;
+        this.usuarioDao = DaoFactory.createUsuarioDao();
         inicializar();
         todosComponentes();
         mostrarDados();
@@ -49,6 +55,15 @@ public class ResultadoView extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 dispose();
                 LoginView loginView = new LoginView();
+            }
+        });
+
+        btnExcluir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                usuarioDao.exclusao(usuario);
+                LoginView loginView = new LoginView();
+                dispose();
             }
         });
     }
